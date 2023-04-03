@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">App7_ListaContatos</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="newUser">New user</string>
+    <string name="save">Save</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="call">Call</string>
+    <string name="newcontact">NEW CONTACT</string>
+    <string name="btnnewUser">New User</string>
+    <string name="contactname">Contact name</string>
+    <string name="contactnumber">(XX) XXXXX-XXXX</string>
+    <string name="nickname">Nickname</string>
+    <string name="name">Name</string>
+    <string name="cellphone">Cellphone</string>
+</resources>

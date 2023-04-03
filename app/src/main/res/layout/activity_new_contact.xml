@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewContactActivity">
+
+    <EditText
+        android:id="@+id/edtNickName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nickname"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/edtNewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        app:layout_constraintTop_toBottomOf="@+id/edtNickName"
+        android:layout_marginTop="25dp"
+        />
+
+    <EditText
+        android:id="@+id/edtNewCellphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/cellphone"
+        android:inputType="phone"
+        app:layout_constraintTop_toBottomOf="@+id/edtNewName"
+        android:layout_marginTop="25dp"
+        />
+
+    <Button
+        android:id="@+id/btn_new_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/newcontact"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
